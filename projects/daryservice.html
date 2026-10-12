@@ -5,77 +5,240 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#101116">
-    <meta name="description" content="DaryService is a two-sided home-services platform for finding workers, booking appointments, and coordinating brokers.">
-    <title>DaryService Case Study | Aimen Lalaibia</title>
+    <meta name="description" content="Aimen Lalaibia — Flutter Developer and Mobile Software Engineer. Selected mobile projects, professional experience, and technical skills.">
+    <title>Aimen Lalaibia | Flutter Developer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
         <nav class="nav container" aria-label="Main navigation">
-            <a class="brand" href="../index.html"><span class="brand-mark">A</span><span>AIMEN LALAIBIA<span class="brand-dot">.</span></span></a>
-            <div class="nav-links" style="display:flex"><a href="../index.html#work">Back to work ↗</a></div>
+            <a class="brand" href="#top" aria-label="Aimen Lalaibia home"><span class="brand-mark">A</span><span>AIMEN LALAIBIA<span class="brand-dot">.</span></span></a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+            <div class="nav-links" id="nav-links">
+                <a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#about">About</a>
+                <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+            </div>
         </nav>
     </header>
-    <main class="container section">
-        <p class="eyebrow">CASE STUDY · STARTUP & MASTER'S THESIS</p>
-        <h1 style="font-size:clamp(2.8rem,7vw,5rem)">DaryService<span class="accent">.</span></h1>
-        <p class="hero-lead">A two-sided home-services platform that helps people find workers and handymen, book appointments, and connect with brokers who coordinate service requests.</p>
 
-        <div class="project-card" style="margin-top:42px">
-            <div class="project-visual dary-visual" style="min-height:280px">
-                <div class="visual-window">
-                    <div class="visual-window-top"><span></span><span></span><span></span><small>DARYSERVICE / OVERVIEW</small></div>
-                    <div class="dary-visual-content">
-                        <div class="visual-kicker">PRODUCT CASE STUDY</div>
-                        <div class="visual-title">Home services,<br><em>made easier.</em></div>
-                        <div class="visual-tag">CUSTOMERS · WORKERS · BROKERS</div>
+    <main id="main">
+        <section class="hero section container" id="top">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> MOBILE SOFTWARE ENGINEER · BUDAPEST, HUNGARY</p>
+                <h1>Building mobile apps<br>for <span class="accent">real-world</span> work.</h1>
+                <p class="hero-lead">Hi, my name is Aimen. I'm a mobile software engineer focused on Flutter and Dart. I build practical applications with maintainable state management, reliable API integrations, and thoughtful user experiences.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+                    <a class="button button-secondary" href="resume/Aimen_Lalaibia_CV.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+                </div>
+                <div class="hero-meta"><span>Flutter · Dart · BLoC/Cubit</span><span class="meta-separator">/</span><span>Kotlin · Android</span></div>
+            </div>
+            <aside class="hero-panel" aria-label="Professional summary">
+                <div class="panel-top"><span class="panel-label">CURRENT FOCUS</span><span class="panel-icon">✳</span></div>
+                <div class="focus-symbol"><span>F</span><i></i><i></i><i></i></div>
+                <h2>Mobile engineering</h2>
+                <p>Production Flutter applications, enterprise workflows, backend integration, and dependable app behavior.</p>
+                <div class="panel-divider"></div>
+                <div class="panel-bottom"><span>Computer Science MSc</span><strong>ELTE · Budapest</strong></div>
+            </aside>
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+        </section>
+
+        <section class="proof-strip container" aria-label="Core capabilities">
+            <div><span class="proof-number">01</span><span>Production mobile apps</span></div>
+            <div><span class="proof-number">02</span><span>API & ERP integration</span></div>
+            <div><span class="proof-number">03</span><span>State management</span></div>
+            <div><span class="proof-number">04</span><span>Debugging & optimization</span></div>
+        </section>
+
+        <section class="section container" id="work">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>Projects with a purpose<span class="accent">.</span></h2>
+                </div>
+                <p class="section-intro">A selection of mobile engineering work. Public details are shared selectively to respect project and company confidentiality.</p>
+            </div>
+            <article class="project-card project-featured">
+                <div class="project-visual dary-visual" aria-label="Abstract DaryService project artwork">
+                    <div class="visual-window">
+                        <div class="visual-window-top"><span></span><span></span><span></span><small>DARYSERVICE / CASE STUDY</small></div>
+                        <div class="dary-visual-content">
+                            <div class="visual-kicker">HOME SERVICES</div>
+                            <div class="visual-title">Find the right<br><em>help for home.</em></div>
+                            <div class="visual-lines"><span></span><span></span><span></span></div>
+                            <div class="visual-tag">CUSTOMERS · WORKERS · BROKERS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-topline"><span class="project-type">STARTUP · THESIS PROJECT</span><span class="project-index">01 / 03</span></div>
+                    <h3>DaryService</h3>
+                    <p class="project-summary">A two-sided home-services platform for finding workers and handymen, booking appointments, and coordinating broker suggestions, decisions, and updates.</p>
+                    <div class="tag-list"><span>Home services</span><span>Appointment booking</span><span>Broker coordination</span></div>
+                    <div class="project-links"><a href="projects/daryservice.html">Read case study <span aria-hidden="true">↗</span></a><span class="private-note"><span class="lock-icon" aria-hidden="true">▣</span> Source code private</span>
+                    </div>
+                </div>
+            </article>
+
+            <div class="project-grid">
+                <article class="project-card project-compact">
+                    <div class="mini-visual sales-visual">
+                        <div class="mini-visual-label">FLUTTER / ODOO RPC</div><img class="sales-preview-image" src="pictures/screen_cashier_deliveries.png" alt="Industrial sales app order list preview">
+                        <div class="mini-caption">Industrial Sales</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-topline"><span class="project-type">PROFESSIONAL PROJECT</span><span class="project-index">02 / 03</span></div>
+                        <h3>Industrial Sales Mobile</h3>
+                        <p>A Flutter sales application for industrial equipment distribution, connecting field sales workflows with Odoo ERP for products, customers, inventory, and orders.</p>
+                        <div class="tag-list"><span>Flutter</span><span>Cubit</span><span>Odoo RPC</span><span>Barcode scanning</span></div>
+                        <div class="project-links"><a href="projects/industrial-sales.html">Read case study <span aria-hidden="true">↗</span></a><span class="private-note"><span class="lock-icon" aria-hidden="true">▣</span> Source code private</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card project-compact">
+                    <div class="mini-visual homes-visual">
+                        <div class="home-card home-card-one"><span class="home-icon">⌂</span><span>Service discovery</span><i></i></div>
+                        <div class="home-card home-card-two"><span class="home-icon">↗</span><span>REST integration</span><i></i></div>
+                        <div class="mini-caption">Home Services App</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-topline"><span class="project-type">PERSONAL / ACADEMIC</span><span class="project-index">03 / 03</span></div>
+                        <h3>Home Services Application</h3>
+                        <p>A service-booking mobile application built with Kotlin and Jetpack Compose, using MVVM and REST API integration.</p>
+                        <div class="tag-list"><span>Kotlin</span><span>Jetpack Compose</span><span>MVVM</span><span>Retrofit</span></div>
+                        <p class="confidential-caption">Case-study details can be expanded after repository and disclosure review.</p>
+                    </div>
+                </article>
+            </div>
+            <p class="section-footnote">Project descriptions are intentionally limited to details that can be shared. Additional implementation details will be added only after verification.</p>
+        </section>
+
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">EXPERIENCE</p>
+                        <h2>Engineering in practice<span class="accent">.</span></h2>
+                    </div>
+                    <p class="section-intro">Professional mobile development, cross-functional collaboration, and maintaining applications used for real business workflows.</p>
+                </div>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-date">JUN 2025 — JUN 2026</div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-body">
+                            <div class="timeline-title-row">
+                                <div>
+                                    <h3>Software Engineer — Mobile Development</h3>
+                                    <p class="company">DZExpert · Industrial group</p>
+                                </div><span class="timeline-kind">FULL-TIME</span></div>
+                            <ul>
+                                <li>Developed, maintained, and optimized enterprise mobile applications using Flutter, Dart, and BLoC/Cubit.</li>
+                                <li>Built a mobile sales application integrated with Odoo ERP for products, customers, inventory, and sales workflows.</li>
+                                <li>Contributed to purchasing efficiency improvements of approximately 15% and production-reporting efficiency improvements of approximately 8%, as recorded in my résumé.</li>
+                                <li>Integrated backend and ERP services, including authentication, synchronization, validation, error handling, and caching.</li>
+                                <li>Investigated production issues and collaborated with backend, QA, configuration, and business teams.</li>
+                            </ul>
+                            <p class="confidential-caption">Company code and proprietary application screens are not published.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-date">JUL 2024 — SEP 2024</div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-body">
+                            <div class="timeline-title-row">
+                                <div>
+                                    <h3>Mobile Developer Intern</h3>
+                                    <p class="company">Shabakett Systems · Remote</p>
+                                </div><span class="timeline-kind">INTERNSHIP</span></div>
+                            <ul>
+                                <li>Contributed to existing mobile codebases and new functionality using Flutter, Kotlin, Jetpack Compose, and Kotlin Multiplatform.</li>
+                                <li>Implemented QR scanning, product search, UI components, navigation, and application data management.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">TOOLKIT</p>
+                    <h2>Tools I work with<span class="accent">.</span></h2>
+                </div>
+                <p class="section-intro">A practical toolkit across mobile development, architecture, and service integration.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-card-icon">01</div>
+                    <h3>Mobile development</h3>
+                    <p>Flutter · Dart · Kotlin · Android · Jetpack Compose · Kotlin Multiplatform</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-card-icon">02</div>
+                    <h3>Architecture & state</h3>
+                    <p>BLoC · Cubit · MVVM · MVC · Clean Architecture · State Management</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-card-icon">03</div>
+                    <h3>Backend & APIs</h3>
+                    <p>REST APIs · Odoo RPC · Django · Node.js · Express.js · JWT · Dio · Retrofit</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-card-icon">04</div>
+                    <h3>Data & developer tools</h3>
+                    <p>PostgreSQL · MySQL · Supabase · Firebase · Git · GitHub · Postman · Android Studio · VS Code · Figma</p>
+                </article>
+            </div>
+            <p class="section-footnote">Skills are based on my résumé and project experience. Individual project details are described only to the level permitted by confidentiality.</p>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container about-layout">
+                <div>
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2>Mobile development,<br><span class="accent">built on engineering.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p>I hold a master's degree in Software Engineering, where I graduated first in my specialization, and I'm currently pursuing an MSc in Computer Science — Cybersecurity at ELTE in Budapest.</p>
+                    <p>I enjoy solving practical engineering problems across mobile applications, backend integrations, and application reliability. My background in cybersecurity also shapes how I think about authentication, data handling, and dependable
+                        software.
+                    </p>
+                    <div class="education-list">
+                        <div><span>2026 — Present</span><strong>MSc Computer Science · Cybersecurity</strong><small>Eötvös Loránd University (ELTE), Budapest</small></div>
+                        <div><span>2023 — 2025</span><strong>Master's Degree · Software Engineering</strong><small>Mohamed Cherif Messaadia University, Algeria · Graduated first in specialization</small></div>
                     </div>
                 </div>
             </div>
-            <div class="project-content">
-                <h3>Project overview</h3>
-                <p>Developed as a startup and master's thesis project, DaryService brings people looking for home repairs together with workers and brokers. Customers can explore services such as electrical work, air-conditioning repair, and plumbing, then
-                    arrange an appointment that suits them.</p>
-                <p>The platform also supports broker-led coordination: brokers receive appointment opportunities and can accept or cancel them. Both sides are notified when an appointment action is taken.</p>
+        </section>
+
+        <section class="contact-section section container" id="contact">
+            <p class="eyebrow">HAVE A ROLE IN MIND?</p>
+            <h2>Let's build something<br><span class="accent">useful.</span></h2>
+            <p class="contact-copy">I'm interested in Flutter and mobile software engineering opportunities where I can contribute to real products and keep growing as an engineer.</p>
+            <div class="hero-actions contact-actions">
+                <a class="button button-primary" href="mailto:lalaibiaaimen1@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+                <a class="button button-secondary" href="resume/Aimen_Lalaibia_CV.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
             </div>
-        </div>
-
-        <div class="skills-grid" style="margin-top:22px">
-            <article class="skill-card">
-                <div class="skill-card-icon">01</div>
-                <h3>For customers</h3>
-                <p>Find workers and handymen across services such as electrical work, air-conditioning, and plumbing. Customers can set a preferred date and time when requesting an appointment.</p>
-            </article>
-            <article class="skill-card">
-                <div class="skill-card-icon">02</div>
-                <h3>Find a broker</h3>
-                <p>Customers can browse brokers themselves. In some cases, the platform suggests brokers with ratings above 3.5 stars to help customers choose a service contact.</p>
-            </article>
-            <article class="skill-card">
-                <div class="skill-card-icon">03</div>
-                <h3>For brokers</h3>
-                <p>Brokers receive suggested appointments and can choose to accept or cancel each opportunity, helping them manage incoming service requests.</p>
-            </article>
-            <article class="skill-card">
-                <div class="skill-card-icon">04</div>
-                <h3>Appointment updates</h3>
-                <p>Notifications keep both parties informed when an appointment action is taken, so customers and brokers stay up to date on the request.</p>
-            </article>
-        </div>
-
-        <div style="margin-top:42px">
-            <p class="eyebrow">THE SERVICE JOURNEY</p>
-            <h2 style="font-size:2rem">From finding help to a confirmed appointment.</h2>
-            <p class="section-intro" style="max-width:680px;margin-top:16px">DaryService brings service discovery, appointment scheduling, broker decisions, and timely notifications into one coordinated home-services experience.</p>
-            <p style="margin-top:28px"><a class="button button-secondary" href="../index.html#work">← Back to selected work</a></p>
-        </div>
+            <div class="social-links">
+                <a href="https://github.com/Aymen2303" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/lalaibia-aimen-a2380624a" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+                <span>Budapest, Hungary</span>
+            </div>
+        </section>
     </main>
     <footer class="site-footer">
-        <div class="container footer-inner"><a class="brand" href="../index.html"><span class="brand-mark">A</span><span>AIMEN LALAIBIA<span class="brand-dot">.</span></span></a><span>Private project · Public summary only</span><a href="#top">Back to top ↑</a></div>
+        <div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">A</span><span>AIMEN LALAIBIA<span class="brand-dot">.</span></span></a><span>Designed and built by Aimen Lalaibia.</span><a href="#top">Back to top ↑</a></div>
     </footer>
 </body>
 
