@@ -1169,6 +1169,46 @@ h1 {
   line-height: 1.6;
 }
 
+.hobbies-section {
+  background: #14151b;
+  border-block: 1px solid #22232c;
+}
+
+.hobbies-layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.hobby-copy {
+  color: var(--muted);
+}
+
+.hobby-copy p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.9;
+}
+
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.hobby-list span {
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(183, 160, 255, 0.08);
+  color: #dcd2ff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
 .contact-section {
   text-align: center;
   padding-block: 112px 100px;
